@@ -1,25 +1,19 @@
+# SnapDecal Project
 
-Snap! Build Your Own Blocks
+This is the documentation for the SnapDecal project made by Susanna and Zachary.
 
-http://snap.berkeley.edu
+##Browser Detection
 
-a visual, blocks based programming language
-inspired by Scratch
+### Browser Compatibility Check
 
-written by Jens Mönig and Brian Harvey
-jens@moenig.org, bh@cs.berkeley.edu
+Our project is to add a feature to Snap which checks which browser the user is running. This 
+will ensure the best user experience by making sure that users will are not using incompatible browsers.
 
-Copyright (C) 2014 by Jens Mönig and Brian Harvey
+If the user is not using *Chrome* or *FireFox*, a warning message will appear adivsing the user to switch
+to a compatible browser.
 
-Snap! is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as
-published by the Free Software Foundation, either version 3 of
-the License, or (at your option) any later version.
+### Browser Usage Statistics
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
+Since we are able to determine which browser every user is using, we will establish a database for keepig track of usage statistics for each browser. 
 
-You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
+##Block Modification
